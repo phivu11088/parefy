@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parefy — Page Not Found</title>
+    <style>
+        :root {
+            --bg: #FFFFFF;
+            --text: #1D1D1F;
+            --secondary: #6E6E73;
+            --accent: #0071E3;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #000000;
+                --text: #F5F5F7;
+                --secondary: #A1A1A6;
+                --accent: #2997FF;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .container { padding: 24px; }
+        h1 { font-size: 64px; font-weight: 700; margin-bottom: 8px; }
+        p { font-size: 18px; color: var(--secondary); margin-bottom: 24px; }
+        a { color: var(--accent); text-decoration: none; font-size: 17px; font-weight: 500; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <p>This page doesn't exist.</p>
+        <a href="/">Back to Parefy</a>
+    </div>
+</body>
+</html>
