@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parefy — Support</title>
+    <meta name="description" content="Get help with Parefy. Find answers to common questions about compressing, merging, splitting, signing, and organizing PDFs on iPhone and iPad.">
+    <link rel="canonical" href="https://parefy.com/support">
+    <link rel="icon" type="image/png" href="../assets/icon-512.png">
+    <link rel="apple-touch-icon" href="../assets/icon-512.png">
+    <style>
+        :root {
+            --bg: #FFFFFF;
+            --text: #1D1D1F;
+            --secondary: #6E6E73;
+            --accent: #0071E3;
+            --border: #E5E5EA;
+            --card-bg: #F5F5F7;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #000000;
+                --text: #F5F5F7;
+                --secondary: #A1A1A6;
+                --accent: #2997FF;
+                --border: #38383A;
+                --card-bg: #1C1C1E;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+        .back {
+            display: inline-block;
+            font-size: 14px;
+            color: var(--accent);
+            text-decoration: none;
+            margin-bottom: 32px;
+        }
+        .back:hover { text-decoration: underline; }
+        h1 {
+            font-size: 34px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+        .intro {
+            font-size: 17px;
+            color: var(--secondary);
+            margin-bottom: 40px;
+        }
+
+        /* FAQ accordion */
+        .faq-section { margin-bottom: 40px; }
+        .faq-section h2 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+        details {
+            border-bottom: 1px solid var(--border);
+        }
+        summary {
+            padding: 16px 0;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        summary::-webkit-details-marker { display: none; }
+        summary::after {
+            content: "+";
+            font-size: 20px;
+            font-weight: 300;
+            color: var(--secondary);
+            transition: transform 0.2s;
+            flex-shrink: 0;
+            margin-left: 16px;
+        }
+        details[open] summary::after {
+            content: "\2212";
+        }
+        .answer {
+            padding: 0 0 16px;
+            font-size: 15px;
+            color: var(--secondary);
+            line-height: 1.7;
+        }
+        .answer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .answer a:hover { text-decoration: underline; }
+        .answer ul {
+            margin: 8px 0 8px 20px;
+        }
+        .answer li {
+            margin-bottom: 4px;
+        }
+
+        /* Contact card */
+        .contact-card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 32px;
+            text-align: center;
+            margin-top: 48px;
+        }
+        .contact-card h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .contact-card p {
+            font-size: 15px;
+            color: var(--secondary);
+            margin-bottom: 20px;
+        }
+        .contact-btn {
+            display: inline-block;
+            background: var(--accent);
+            color: #FFFFFF;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 12px 28px;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+        .contact-btn:hover { opacity: 0.85; }
+
+        footer {
+            text-align: center;
+            margin-top: 64px;
+            font-size: 13px;
+            color: var(--secondary);
+        }
+        footer a {
+            color: var(--secondary);
+            text-decoration: none;
+        }
+        footer a:hover { color: var(--accent); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a class="back" href="/">&larr; Parefy</a>
+
+        <h1>Support</h1>
+        <p class="intro">Find answers to common questions below, or contact us directly.</p>
+
+        <!-- Getting Started -->
+        <div class="faq-section">
+            <h2>Getting Started</h2>
+
+            <details>
+                <summary>How do I import a PDF?</summary>
+                <div class="answer">
+                    Tap the <strong>+</strong> button on the home screen and choose a PDF from Files, iCloud Drive, or any connected storage provider. You can also use the Share sheet from other apps to send PDFs directly to Parefy.
+                </div>
+            </details>
+
+            <details>
+                <summary>Does Parefy require an internet connection?</summary>
+                <div class="answer">
+                    No. Parefy works entirely offline. All PDF processing happens on your device. No files are uploaded anywhere.
+                </div>
+            </details>
+
+            <details>
+                <summary>Does Parefy work on iPad?</summary>
+                <div class="answer">
+                    Yes. Parefy is a universal app that runs natively on both iPhone and iPad.
+                </div>
+            </details>
+        </div>
+
+        <!-- Compress -->
+        <div class="faq-section">
+            <h2>Compress PDFs</h2>
+
+            <details>
+                <summary>What is target-size compression?</summary>
+                <div class="answer">
+                    Target-size mode lets you set the exact file size you need (for example, 5 MB for an email attachment). Parefy's compression engine automatically finds the best strategy to reach your target while keeping text readable. Tap <strong>Compress</strong>, select <strong>Target size</strong>, and drag the slider or type a custom value.
+                </div>
+            </details>
+
+            <details>
+                <summary>What do the compression levels mean?</summary>
+                <div class="answer">
+                    <ul>
+                        <li><strong>Keep Quality</strong> — minimal reduction, preserves original clarity</li>
+                        <li><strong>Balanced</strong> — good size reduction with high readability</li>
+                        <li><strong>Smaller File</strong> — significant reduction, slight quality trade-off</li>
+                        <li><strong>Extreme</strong> — maximum compression for the smallest possible file</li>
+                    </ul>
+                    For most documents, <strong>Balanced</strong> is the best starting point.
+                </div>
+            </details>
+
+            <details>
+                <summary>Will compression make my text blurry?</summary>
+                <div class="answer">
+                    Parefy classifies each page (text, scanned, photo, mixed) and applies the right strategy for each. Text-heavy pages are compressed with structure-level optimizations that keep text sharp. Only image-heavy pages use raster compression, and even then quality floors prevent over-compression.
+                </div>
+            </details>
+
+            <details>
+                <summary>Why is the compressed file larger than expected?</summary>
+                <div class="answer">
+                    Some PDFs are already well-optimized and can't be reduced further without quality loss. If Parefy can't beat the original size at your chosen quality level, it will keep the original to avoid making things worse.
+                </div>
+            </details>
+        </div>
+
+        <!-- Merge & Split -->
+        <div class="faq-section">
+            <h2>Merge & Split</h2>
+
+            <details>
+                <summary>How do I merge PDFs?</summary>
+                <div class="answer">
+                    Tap <strong>Merge</strong> on the home screen, select the files you want to combine, then drag to reorder them. Choose <strong>Append</strong> to combine back-to-back, or <strong>Interleave</strong> to alternate pages (useful for combining front/back scans). Tap <strong>Merge PDFs</strong> to create the combined document.
+                </div>
+            </details>
+
+            <details>
+                <summary>How do I extract specific pages?</summary>
+                <div class="answer">
+                    Tap <strong>Extract</strong>, select a PDF, then choose the pages you want. You can pick individual pages, odd/even pages, or type custom ranges like <strong>1-3, 7, 12-15</strong>. Tap <strong>Extract</strong> to create a new PDF with only those pages.
+                </div>
+            </details>
+        </div>
+
+        <!-- Sign -->
+        <div class="faq-section">
+            <h2>Sign Documents</h2>
+
+            <details>
+                <summary>How do I sign a PDF?</summary>
+                <div class="answer">
+                    Tap <strong>Sign</strong>, select a PDF, then draw your signature on the canvas. Your signature is saved for reuse. On the PDF, pinch to resize, drag to position, and use two fingers to rotate. Tap <strong>Export</strong> when done.
+                </div>
+            </details>
+
+            <details>
+                <summary>Can I save multiple signatures?</summary>
+                <div class="answer">
+                    Yes. You can create and save multiple signatures and choose which one to use each time you sign a document.
+                </div>
+            </details>
+        </div>
+
+        <!-- Scan & Photos -->
+        <div class="faq-section">
+            <h2>Scan & Photos to PDF</h2>
+
+            <details>
+                <summary>How does document scanning work?</summary>
+                <div class="answer">
+                    Tap the scan button on the home screen and point your camera at a document. Parefy uses Apple's VisionKit for automatic edge detection, perspective correction, and image enhancement. You can scan multiple pages in one session.
+                </div>
+            </details>
+
+            <details>
+                <summary>Can I convert photos to PDF?</summary>
+                <div class="answer">
+                    Yes. Tap <strong>Photos to PDF</strong>, choose photos from your library, and Parefy converts them into a single PDF document. You can choose quality presets to balance file size and image clarity.
+                </div>
+            </details>
+        </div>
+
+        <!-- Privacy & Security -->
+        <div class="faq-section">
+            <h2>Privacy & Security</h2>
+
+            <details>
+                <summary>Are my files uploaded anywhere?</summary>
+                <div class="answer">
+                    No. Parefy processes everything on your device. There are no servers, no cloud uploads, no analytics, and no ads. Your documents never leave your iPhone or iPad. See our <a href="/privacy">Privacy Policy</a> for full details.
+                </div>
+            </details>
+
+            <details>
+                <summary>Can I password-protect a PDF?</summary>
+                <div class="answer">
+                    Yes. Tap <strong>Password</strong> on the home screen, select a PDF, and set a password. You can also unlock password-protected PDFs for editing.
+                </div>
+            </details>
+        </div>
+
+        <!-- Troubleshooting -->
+        <div class="faq-section">
+            <h2>Troubleshooting</h2>
+
+            <details>
+                <summary>The app can't open my PDF</summary>
+                <div class="answer">
+                    Some PDFs may be damaged or use non-standard encoding. Try opening the file in Apple's Files app first to confirm it's valid. If the file is password-protected, use the <strong>Password</strong> tool to unlock it before using other tools.
+                </div>
+            </details>
+
+            <details>
+                <summary>Compression is taking a long time</summary>
+                <div class="answer">
+                    Large PDFs (100+ pages) with many images take more time to process. The progress bar shows real-time status. You can cancel at any time without losing your original file. For very large files, try the <strong>Keep Quality</strong> or <strong>Balanced</strong> preset first — these are faster than aggressive compression.
+                </div>
+            </details>
+
+            <details>
+                <summary>Where are my exported files saved?</summary>
+                <div class="answer">
+                    When you tap <strong>Save to Files</strong>, you choose the destination in the system file picker (iCloud Drive, On My iPhone, or any connected storage provider). You can also tap <strong>Share</strong> to send directly to another app, AirDrop, or email.
+                </div>
+            </details>
+        </div>
+
+        <!-- Contact -->
+        <div class="contact-card">
+            <h2>Still need help?</h2>
+            <p>We typically respond within 24 hours.</p>
+            <a class="contact-btn" href="mailto:support@parefy.com">Email Us</a>
+        </div>
+
+        <footer>
+            <a href="/">Parefy</a> &middot;
+            <a href="/privacy">Privacy</a> &middot;
+            <a href="/terms">Terms</a>
+            <br>&copy; 2026 Vu Hoang. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
